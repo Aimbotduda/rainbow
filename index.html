@@ -1,0 +1,72 @@
+<body>
+     <link rel="icon" href="Nothing/icon.ico">
+    <title>NØ_thing</title>
+    <h1 style="text-align:center;">Welcome to Nothing</h1>
+
+
+        <p style="text-align:center; color:slateblue;"><span id="datetime"></span></p>
+
+        <script>
+            var dt = new Date();
+              document.getElementById("datetime").innerHTML = dt.toLocaleString();
+        </script>
+
+    <div>
+        <button type="submit"  onClick="refreshPage()"> refresh </button>
+        <script>
+          function refreshPage(){
+              window.location.reload();
+          }
+        </script>
+
+        <style>
+            button{
+                margin:auto;
+                display:block;
+                color:#fff;
+                background:#22bc0b;
+                border:0;
+            }
+            button:hover{
+                background:#1a8e08;
+            }
+            button:active{
+                background:#055b26;
+            }
+        </style>
+    </div>
+    <p style="color:#676666;">By:Aimbotduda</p>
+    <p>//TODO</p>
+.element	{ position:fixed; top:2%; right:2%; }
+    <div style="position: absolute; bottom: 0px;">
+    20/5/2018
+    </div>
+
+     <style>
+        body {
+            height: 100%;
+        }
+
+        body {
+            -webkit-animation: background 25s cubic-bezier(1,0,0,1) infinite;
+            animation: background 25s cubic-bezier(1,0,0,1) infinite;
+        }
+
+
+        @-webkit-keyframes background {
+            0% { background-color: #99f2ff; }
+            25% { background-color: #5cf9b5; }
+            50% { background-color: #99f2ff; }
+            75% { background-color: #5cf9b5; }
+            100% { background-color: #99f2ff; }
+        }
+
+        @keyframes background {
+            0% { background-color: #99f2ff; }
+            25% { background-color: #5cf9b5; }
+            50% { background-color: #99f2ff; }
+            75% { background-color: #5cf9b5; }
+            100% { background-color: #99f2ff; }
+        }
+     </style>
+</body>
